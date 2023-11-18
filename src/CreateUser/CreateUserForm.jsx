@@ -24,7 +24,7 @@ const CreateUserForm = () => {
 
     try {
       // Send a POST request with data in the request body
-      const response = await fetch('http://localhost:5001/createUser', {
+      const response = await fetch('https://heliverse-backend-rho.vercel.app/createUser', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

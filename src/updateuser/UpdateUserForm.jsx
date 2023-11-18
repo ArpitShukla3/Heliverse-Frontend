@@ -16,7 +16,7 @@ function  UpdateUserForm (){
    
     try {
       // Send a POST request with updated data in the request body
-      const response = await fetch('http://localhost:5001/updateUser/'+id, {
+      const response = await fetch('https://heliverse-backend-rho.vercel.app/updateUser/'+id, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
